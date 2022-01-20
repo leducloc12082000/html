@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Js</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+     
+     .pt-1{
+        display: inline-table;
+        background-color: #4164cc;
+     }
+
+     #giatri-a{
+        background-color: #33a156;
+     }
+     #giatri-b{
+        background-color:  #33a156;
+     }
+     #ketqua-1{
+        background-color:  #33a156;
+     }
+    </style>
+</head>
+<body>
+  <table border="1">
+    <thead>
+        <div class="pt-1">
+        <tr>
+            <th style="background-color: #4164cc">Giải Phương Trình Bậc 1</th>
+        </tr>
+    </div>
+  <tr>
+    <form></form>
+    <input type="button" value="Nhập Giá Trị A" id="giatri-a" onclick="giatri_a()">
+    <input type="button" value="Nhập Giá Trị b" id="giatri-b" onclick="giatri_b()">
+    <input type="button" value="In Kết Quả" id="ketqua-1" onclick="ketqua()">
+  </tr>
+</thead>
+</table>
+
+ <script type="text/javascript">
+    function giatri_a() {
+        var a=prompt("Nhập giá trị a:")
+    }
+    function giatri_b(){
+        var b=prompt("Nhập giá trị b:")
+    }
+    
+    function ketqua(x, y) {
+        var hieu= a-b;
+        alert('ket qua' + hieu)
+    }
+ </script>
+</body>
+</html>

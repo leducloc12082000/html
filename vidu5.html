@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giải Phương Trình Bậc 2</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        body{
+            background-color: red;
+            
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        do{
+            var a = prompt('Nhập giá trị của a')
+        }while(a == 0)
+        var a = prompt('Nhập giá trị của a')
+        
+        var b = prompt('Nhập giá trị của b')
+        
+        var c = prompt('Nhập giá trị của c')
+        
+        d = b*b-4*a*c
+        k = -b / (2 * c)
+        d1 = (-b + Math.sqrt(d)) / (2*a)
+        d2 = (-b - Math.sqrt(d)) / (2*a)
+
+    if(d < 0)
+    {
+        document.write('Phương trình vô nghiệm')
+    }else if(d == 0)
+    {
+        document.write('Phương trình có nghiệm kép x1 = x2 ='+k)    
+    }else 
+    {
+        document.write('Phương trình có 2 nghiệm'+'<br>')
+        document.write('x1 = ' + d1 +'<br>') 
+        document.write('x2 = ' + d2 )
+    }
+    </script>
+</body>
+</html>

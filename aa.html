@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phương trình bậc nhất</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.caption{
+	background-color: #323ea8;
+	font-family: arial;
+	font-size: 1em;
+	color: white;
+               }
+         #table{
+              width: 450px;
+              height: 30px;'
+              padding:30px 20px 30px 20px;
+         }
+         body{
+         	
+         }
+         .mausac{
+         	background-color:#42f551 ;
+         	
+         	
+	border: 2px ;
+	padding-right:  1em; 
+	padding-left:  1em; 
+	margin-left: 10px;
+	text-align: center;
+	border-radius: 5px;
+  	font-size: 15px;	
+         }
+	</style>
+</head>
+<body> 
+  <table border="1" id="table">
+  	<caption class="caption"> Giải Phương Trình Bậc 1</caption>
+  	<tr>
+  		<td>
+  			<input type="button" name="valueA" value="Nhap A"  class="mausac" onclick="inputA()">
+  			<input type="button" name="valueB" value="Nhap B"  class="mausac" onclick="inputB()">
+  			<input type="button" name="valueA" value="In kết Quá"  class="mausac" onclick="outAB()">
+  		</td>
+  	</tr>
+  </table>
+  <script type="text/javascript">
+  	function inputA() {
+			a = parseInt(prompt("Nhập A = "));
+		}
+		function inputB() {
+			b = parseInt(prompt("Nhập B = "));
+		}
+		function outAB() {			
+			var c = a + b;
+			alert("Tổng A+B: "+ c);
+		}
+  </script>
+</body>
+</html>
